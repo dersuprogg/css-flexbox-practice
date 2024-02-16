@@ -136,3 +136,19 @@ article {
 .price.price.price--enterprise::after {
   display: none;
 }
+
+@media (max-width: 750px) {
+  article {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    gap: 2.4rem;
+    padding: 0;
+  }
+
+  .card {
+    flex-grow: 0;
+    width: 90%;
+    max-width: 600px;
+  }
+}
