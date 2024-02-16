@@ -99,3 +99,11 @@ article {
 .btn.btn--essentials {
   background-color: var(--orange);
 }
+
+.btn.btn--plus {
+  background-color: var(--blue);
+}
+
+.btn.btn--enterprise {
+  background-color: var(--dark-blue);
+}
