@@ -120,3 +120,16 @@ article {
   font-size: 1.4rem;
   margin-bottom: 6rem;
 }
+
+.price::after {
+  content: "/mo";
+  font-size: 1rem;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.price.price.price--enterprise::after {
+  display: none;
+}
